@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 // Vite projects mein variable access karne ka sahi tarika
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_URL = import.meta.env.VITE_API_URL || "https://quick-share-app-backend.vercel.app";
 
 function App() {
   const [text, setText] = useState("");
